@@ -52,7 +52,7 @@
   <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/lineage" name="Suicide-Squad-Rom/android_vendor_lineage" remote="github" revision="lineage-17.0"/>
+  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeAurora additions -->
   <!--<project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />-->
@@ -140,7 +140,7 @@
   <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-16.0" />
   
   <project name="Suicide-Squad-Rom/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-17.0"/>
-  <project name="Suicide-Squad-Rom/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-17.0"/>
+  <project name="Suicide-Squad-Rom/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="10"/>
   <project name="Suicide-Squad-Rom/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-17.0"/>
   <project name="Eamo5/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.0"/>
 
