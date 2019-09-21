@@ -683,7 +683,7 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
-   <project path="prebuilts/openssl" name="pe-wip/prebuilts_openssl" clone-depth="1" remote="github" clone-depth="1" revision="ten"/> 
+  <project path="prebuilts/openssl" name="pe-wip/prebuilts_openssl" remote="github" clone-depth="1" revision="ten"/> 
   <project path="prebuilts/tools-custom" name="pe-wip/prebuilts_tools-custom" clone-depth="1" remote="github" clone-depth="1" revision="ten"/> 
 
                                                                                                                        
