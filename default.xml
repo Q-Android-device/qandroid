@@ -86,7 +86,7 @@
   <project path="external/avb" name="platform/external/avb" groups="pdk" remote="aosp" />
   <project path="external/bcc" name="platform/external/bcc" groups="pdk" remote="aosp" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk" remote="aosp" />
-  <project path="external/boringssl" name="pe-wip/external_boringssl" remote="github" revision="ten"/>
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/brotli" name="platform/external/brotli" groups="pdk" remote="aosp" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
