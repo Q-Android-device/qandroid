@@ -49,10 +49,10 @@
   <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/lineage" name="testing-q/android_vendor_lineage" />
+  <project path="vendor/lineage" name="Q-Android-device/android_vendor_lineage" remote="github" revision="lineage-17.0"/>
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="testing-q/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
+  <project path="device/qcom/sepolicy" name="Q-Android-device/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.0"/>
   <!--<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" />-->
   <!--<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />-->
   <!--<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />-->
@@ -124,7 +124,6 @@
   <!-- Tools -->
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
-
 
   <project name="BlackDeaths/klte" path="device/samsung/klte" remote="github" revision="q" />
   <project name="BlackDeaths/klte-common" path="device/samsung/klte-common" remote="github" revision="q" />
