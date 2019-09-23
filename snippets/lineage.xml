@@ -130,7 +130,7 @@
   <project name="BlackDeaths/msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="q" />
   <project name="fessmm/kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="github" revision="pie" />
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
-  <project name="BlackDeaths/samsung_hardware" path="hardware/samsung" remote="github" revision="q" />
+  <project name="BlackDeaths/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.0" />
   <project name="BlackDeaths/qcom-common" path="device/samsung/qcom-common" remote="github" revision="q" />
   
   <project name="Eamo5/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-17.0"/>
