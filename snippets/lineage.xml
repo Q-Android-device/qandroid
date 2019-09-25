@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="testing-q/android" />
+  <project path="android" name="Q-Android-device/android" />
   <!--<project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />-->
   <project path="device/lineage/sepolicy" name="Q-Android-device/android_device_lineage_sepolicy" remote="github" revision="lineage-17.0"/>
   <!--<project path="external/bash" name="LineageOS/android_external_bash" />-->
@@ -24,7 +24,7 @@
   <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
-  <project path="lineage-sdk" name="testing-q/android_lineage-sdk" />
+  <project path="lineage-sdk" name="Q-Android-device/android_lineage-sdk" remote="github" revision="lineage-17.0"/>
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <!--<project path="packages/apps/AppDrawer" name="LineageOS/android_packages_apps_AppDrawer" />-->
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
@@ -35,28 +35,28 @@
   <!--<project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />-->
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
   <!--<project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />-->
-  <project path="packages/apps/LineageParts" name="testing-q/android_packages_apps_LineageParts" />
+  <project path="packages/apps/LineageParts" name="Q-Android-device/android_packages_apps_LineageParts" />
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <!--<project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />-->
   <!--<project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />-->
   <!--<project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />-->
   <!--<project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />-->
   <!--<project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />-->
-  <project path="packages/apps/Updater" name="testing-q/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="Q-Android-device/android_packages_apps_Updater" />
   <!--<project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />-->
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
-  <!--<project path="prebuilts/lineage-sdk" name="testing-q/android_prebuilts_lineage-sdk" clone-depth="1" />-->
+  <project path="prebuilts/lineage-sdk" name="Q-Android-device/android_lineage-sdk" clone-depth="1" />
   <project path="prebuilts/openssl" name="LineageOS/android_prebuilts_openssl" clone-depth="1" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" clone-depth="1" />
   <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/lineage" name="testing-q/android_vendor_lineage" />
+  <project path="vendor/lineage" name="Q-Android-device/android_vendor_lineage" remote="github" revision="lineage-17.0"/>
 
   <!-- CodeAurora additions -->
-  <project path="device/qcom/sepolicy" name="testing-q/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" />
+  <project path="device/qcom/sepolicy" name="Q-Android-device/android_device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="github" revision="lineage-17.0"/>
   <!--<project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" />-->
-  <!--<project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />-->
-  <!--<project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />-->
-  <!--<project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />-->
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
   <!--<project path="external/connectivity" name="LineageOS/android_external_connectivity" groups="qcom,pdk-qcom" />-->
   <!--<project path="external/json-c" name="LineageOS/android_external_json-c" groups="qcom,pdk-qcom" />-->
   <!--<project path="external/powertop" name="LineageOS/android_external_powertop" />-->
@@ -125,18 +125,5 @@
   <project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 
-
-  <project name="BlackDeaths/klte" path="device/samsung/klte" remote="github" revision="q" />
-  <project name="BlackDeaths/klte-common" path="device/samsung/klte-common" remote="github" revision="q" />
-  <project name="BlackDeaths/msm8974-common" path="device/samsung/msm8974-common" remote="github" revision="q" />
-  <project name="fessmm/kernel_samsung_msm8974" path="kernel/samsung/msm8974" remote="github" revision="pie" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-16.0" />
-  <project name="BlackDeaths/samsung_hardware" path="hardware/samsung" remote="github" revision="q" />
-  <project name="BlackDeaths/qcom-common" path="device/samsung/qcom-common" remote="github" revision="q" />
-  
-  <project name="Eamo5/android_device_google_taimen" path="device/google/taimen" remote="github" revision="lineage-17.0"/>
-  <project name="Eamo5/android_device_google_wahoo" path="device/google/wahoo" remote="github" revision="lineage-17.0"/>
-  <project name="Eamo5/android_kernel_google_wahoo" path="kernel/google/wahoo" remote="github" revision="lineage-17.0"/>
-  <project name="Eamo5/proprietary_vendor_google" path="vendor/google" remote="github" revision="lineage-17.0"/>
-
 </manifest>
+
