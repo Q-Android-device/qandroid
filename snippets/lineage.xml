@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- LineageOS additions -->
-  <project path="android" name="Q-Android-device/android" />
+  <project path="android" name="Q-Android-device/qandroid" />
   <!--<project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />-->
   <project path="device/lineage/sepolicy" name="Q-Android-device/android_device_lineage_sepolicy" remote="github" revision="lineage-17.0"/>
   <!--<project path="external/bash" name="LineageOS/android_external_bash" />-->
